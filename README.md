@@ -1,9 +1,7 @@
-# Marquee
-Simple HTML5/JavaScript marquee with no dependencies.
-
+# MarqueeSimple HTML5/JavaScript marquee with no dependencies.
 This simple marquee uses HTML5 and JavaScript.
-Several options for configuration.
 
+Several options for configuration.
 background color or image
 border width and color (can be 0 width)
 font color, size, family
@@ -16,4 +14,3 @@ bounce enabled flips the direction when the text reaches an endpoint (edge)
 
 MarqueeTest-1.html example uses the image.png file for the background image source.
 MarqueeTest-2.html example, just another example.
-

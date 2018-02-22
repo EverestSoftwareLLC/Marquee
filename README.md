@@ -16,3 +16,4 @@ bounce enabled flips the direction when the text reaches an endpoint (edge)
 
 MarqueeTest-1.html example uses the image.png file for the background image source.
 MarqueeTest-2.html example, just another example.
+

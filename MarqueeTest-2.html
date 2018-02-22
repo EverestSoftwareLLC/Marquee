@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marquee test - 2</title>
+        <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <script src="marquee-1.0.0.0.js"></script>
+        <canvas id="D0" style="position:absolute; top:10px; left:10px; display:block; margin:0px; padding:0px;" 
+                width="300" height="440"></canvas>
+    </head>
+
+    <body>
+	 <script>
+
+        var marqD0 = new Marquee("D0",	{"borderWidth":2,
+                                        "backgroundColor":"white",
+                                        "borderColor":"blue",
+                                        "fontColor":"black",
+                                        "fontSize":16,
+                                        "fontName":"Verdana",
+                                        "imageSrc":"",
+                                        "speed":50,
+                                        "step":5,
+										        "bounce":true,
+										        "direction":3});
+        marqD0.Initialize(marqD0);
+	
+        function SetProperty(prop,value) {
+         var e = window["marqD0"];
+         if (e)
+          e.SetProperty(prop,value);
+        };
+	 </script>
+
+    <button type="button" style="position:absolute; top:480px; left:10px;" onclick="SetProperty('speed',100)">Set speed</button>
+    <button type="button" style="position:absolute; top:480px; left:110px;" onclick="SetProperty('paused',true)">Pause</button>
+    <button type="button" style="position:absolute; top:480px; left:210px;" onclick="SetProperty('paused',false)">Resume</button>
+    <button type="button" style="position:absolute; top:480px; left:310px;" onclick="SetProperty('step',50)">Set step</button>
+    <button type="button" style="position:absolute; top:480px; left:410px;" onclick="SetProperty('userText','This is the new text.')">Set use text</button>
+
+	</body>
+</html>

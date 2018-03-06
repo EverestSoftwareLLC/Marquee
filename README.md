@@ -1,4 +1,6 @@
-# MarqueeSimple HTML5/JavaScript marquee with no dependencies.
+# Marquee
+
+Simple HTML5/JavaScript marquee with no dependencies.
 This simple marquee uses HTML5 and JavaScript.
 
 Several options for configuration.
